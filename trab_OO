@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package trabalho_oo;
+
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.lang.Object;
+
+
+/**
+ *
+ * @author Lasaro Almeida
+ */
+public class Locadora {
+   List<Filme> lFilmes = new ArrayList<>();
+   List<Pessoa> lPessoas =  new ArrayList<>(); 
+   Float ContaBancária;
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        FileWriter writefile =null;
+        GSONObject objetoJson = new GSONObject();
+        Filme f2;
+        f2 = new Terror("Lasaro",18,true,45.4f,10);
+        
+}
+}
